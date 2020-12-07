@@ -54,7 +54,7 @@ label{
     color: blue;  
   
   
-}  
+} 
 span{  
     color: white;  
     font-size: 17px;  
@@ -99,12 +99,17 @@ a{
         </b>    
         </label>    
         <input type="text" name="Uname" id="Uname" placeholder="0000000000">    
-        <br><br>   
-        <label><b>Job type    
-        </b>    
-        </label>    
-        <input type="text" name="Uname" id="Uname" placeholder="Maid">    
-        <br><br>   
+        <br><br>     
+        <div class="custom-select" style="width:400px;">
+          <select>
+            <option value="0">Select Job:</option>
+            <option value="1">Maid</option>
+            <option value="2">Plumber</option>
+            <option value="3">Painter</option>
+            <option value="4">Electrician</option>
+            <option value="5">Pesticide</option>
+          </select>
+        </div>
          <label class="mr-4">Upload your CV:</label>
         <input type="file" name="file">
         <input type="button" name="Submit" id="log" value="Submit">       
